@@ -5,8 +5,8 @@ import pandas as pd
 
 st.title(" :bar_chart: Sample SuperStore EDA")
 
-
-df = pd.read_excel(file="Sample - Superstore.xls")
+file-url="https://github.com/danielromeroAI/PythonStreamlit/blob/main/Sample%20-%20Superstore.xls"
+df = pd.read_excel(file="file_url")
 
 
 col1, col2 = st.columns((2))
