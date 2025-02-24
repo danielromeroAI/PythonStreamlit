@@ -5,10 +5,8 @@ import pandas as pd
 
 st.title(" :bar_chart: Sample SuperStore EDA")
 
-fl = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","xls"]))
-filename = fl.name
-st.write(filename)
-df = pd.read_csv(filename, encoding = "ISO-8859-1")
+
+df = pd.read_csv(file='Sample - Superstore', encoding = "ISO-8859-1")
 
 
 col1, col2 = st.columns((2))
