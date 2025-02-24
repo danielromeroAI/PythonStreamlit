@@ -6,7 +6,7 @@ import pandas as pd
 st.title(" :bar_chart: Sample SuperStore EDA")
 
 
-df = pd.read_csv(file='Sample - Superstore', encoding = "ISO-8859-1")
+df = pd.read_excel(file='Sample - Superstore')
 
 
 col1, col2 = st.columns((2))
